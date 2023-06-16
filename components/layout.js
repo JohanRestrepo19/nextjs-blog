@@ -7,6 +7,7 @@ import Link from "next/link";
 const name = "Johan Restrepo";
 export const siteTitle = "Next.js Sample Website";
 
+//eslint-disable-next-line
 export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
